@@ -1,0 +1,23 @@
+main {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+img {
+    width: 250px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:575px) {
+    img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
