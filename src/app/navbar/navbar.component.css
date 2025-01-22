@@ -1,0 +1,38 @@
+.navbar-brand,
+.navbar-toggler {
+    font-size: 2rem;
+}
+
+.navbar-brand,
+.nav-item {
+    font-weight: 700;
+}
+
+.nav-item {
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    border-width: 0;
+    box-shadow: 0 0 0;
+}
+
+@media screen and (max-width:767px) {
+
+    .navbar-brand,
+    .navbar-toggler {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:345px) {
+
+    .navbar-brand,
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .nav-item {
+        font-size: 0.8rem;
+    }
+}
