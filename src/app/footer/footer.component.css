@@ -1,0 +1,31 @@
+footer {
+    background-color: #2C3E50;
+}
+
+i {
+    margin: 0 5px;
+    border: 1px solid white;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 50%;
+    transition: 0.2s all ease-in;
+}
+
+i:hover {
+    color: #1ABC9C;
+    cursor: pointer;
+    border-color: #1ABC9C;
+}
+
+.copyright {
+    background-color: #1A252F;
+}
+
+a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
