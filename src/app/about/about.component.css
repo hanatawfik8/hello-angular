@@ -9,28 +9,19 @@ main {
     align-items: center;
 }
 
-img {
-    width: 250px;
-}
-
-h1 {
+h2 {
     font-weight: 700;
     font-size: 2.5rem;
 }
 
 @media screen and (max-width:575px) {
-    img {
-        width: 200px;
-    }
-
-    h1 {
+    h2 {
         font-size: 2rem;
     }
-
 }
 
 @media screen and (max-width:345px) {
-    h1 {
+    h2 {
         font-size: 1.5rem;
     }
 

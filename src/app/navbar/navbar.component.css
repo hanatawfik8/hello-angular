@@ -21,6 +21,16 @@
     box-shadow: 0 0 0;
 }
 
+.nav-link {
+    width: fit-content;
+    padding: 5px;
+}
+
+.activeLink {
+    background-color: #1ABC9C;
+    border-radius: 6px;
+}
+
 @media screen and (max-width:767px) {
 
     .navbar-brand,
