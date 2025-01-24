@@ -1,6 +1,6 @@
 .navbar {
     transition: 0.3s all ease-in-out;
-
+    background-color: #2C3E50;
 }
 
 .navbar-brand,

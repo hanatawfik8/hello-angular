@@ -9,6 +9,7 @@ main {
     padding-bottom: 50px;
     width: 100vw;
     min-height: 100vh;
+
 }
 
 h2 {
@@ -16,20 +17,28 @@ h2 {
     font-size: 2.5rem;
 }
 
-.overlay {
+.form-control {
+    margin-bottom: 60px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0;
+}
+
+form {
+    width: 65%;
+}
+
+button {
     background-color: #1ABC9C;
-    opacity: 0;
+    padding: 8px 15px;
+    border-width: 0;
+    font-weight: 500;
     transition: 0.2s all ease-in;
 }
 
-.overlay:hover {
-    opacity: 0.9;
-    cursor: pointer;
-}
-
-i {
-    font-size: 6rem;
-    color: white;
+button:hover {
+    background-color: #44ccb1;
 }
 
 @media screen and (max-width:767px) {
@@ -39,6 +48,10 @@ i {
 
     main {
         margin-top: 96px;
+    }
+
+    form {
+        width: 70%;
     }
 
 }
@@ -52,4 +65,7 @@ i {
         margin-top: 86px;
     }
 
+    form {
+        width: 90%;
+    }
 }
