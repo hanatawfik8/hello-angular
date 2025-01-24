@@ -1,0 +1,30 @@
+<main class="container-fluid text-center overflow-hidden pt-3 mx-0 px-0">
+    <h2 class="text-uppercase mt-3">portfolio component</h2>
+    <app-blue-star></app-blue-star>
+    <div class="row container gy-4 gx-4 mt-2 px-0 mx-0">
+        @for (img of images; track img) {
+        <div class="col-md-6 col-12 col-lg-4">
+            <div class="imgContainer rounded overflow-hidden position-relative" data-bs-toggle="modal"
+                data-bs-target="#Modal" (click)="sendImg(img)">
+                <img src="assets/images/{{img}}" class="w-100">
+                <div
+                    class="overlay position-absolute top-0 h-100 w-100 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+
+
+        }
+    </div>
+</main>
+
+
+<div class="modal fade fixed top-0 end-0 start-0 bottom-0" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <img src="assets/images/{{displayedImg}}">
+        </div>
+    </div>
+</div>
